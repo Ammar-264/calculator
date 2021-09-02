@@ -1,0 +1,82 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+h2{
+   font-size: 35px;
+   margin:40px 0px ;
+   text-decoration: underline;
+}
+  .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+  }
+
+
+  .container{
+    width: 278px;
+    background-color: #0F52BA;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+
+  button:focus,
+  button:active,
+  input:focus,
+  input:active{
+    border: none;
+    outline: none;
+  }
+  button{
+    width:60px;
+    height: 7vh;
+    font-size: 25px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    margin: 4px;
+    cursor: pointer;
+    background-color:#002366 ;
+    color: white;
+    border-radius: 10px;
+  }
+  .keypad{
+    margin: 12px 0px;
+  }
+  #clear,#calculate{
+    width: 126px;
+  }
+  input{
+    width:260px ;
+    height: 8vh;
+    background-color: #002366;
+    border: none;
+    outline: none;
+    font-size: 26px;
+    color: #fff;
+    margin-top: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: right;
+    padding: 3px ;
+    border-radius: 4px;
+  }
+  .highlight{
+     background-color:#fff ;
+     color: black;
+     font-weight: 600;
+     letter-spacing: 1px;
+  }
+  h2{
+
+  }
